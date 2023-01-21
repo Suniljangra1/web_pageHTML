@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+    font-family: "Time new Roman";
+} 
+.container{
+    margin: 0 30px;
+    padding: 5px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.library-logo{
+    width: 200px;
+}
+.header_nav-item{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.header_nav-item a{
+    color: brown;
+    text-decoration: 0px;
+    font-size: 25px;
+}
+.header_nav-item a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+}
+/* Main Section */
+.Hero{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-text{
+    width: 700px;
+}
+.main_image img{
+    width: 400px;
+}
+.main_text-heading{
+    font-size: 45px;
+    color: rgb(77, 78, 2);
+}
+/* Section 2 */
+.Books{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:70px ;
+    padding-bottom: 70px;
+    
+}
+.Books_first h2{
+    padding: 10px;
+    color: rgb(102, 102, 4);
+    font-size:medium;
+}
+.Books_second h2{
+    padding: 6px;
+    color: rgb(102, 102, 4);
+    font-size:medium;
+}
+.Books_third h2{
+    padding: 5px;
+    color: rgb(102, 102, 4);
+    font-size:medium;
+}
+.Footer{
+    background-color: rgb(12, 5, 5);
+    color: rgb(102, 102, 4);
+    padding: 10px;
+}
+.footer_text{
+     text-align: center;
+}
+.child-ind{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: rgb(102, 102, 4);
+}
+.child-ind img{
+        width: 300px;
+       
+}
+.child-ind{
+    padding: 40px;
+    gap: 50px;
+    font-size: 25px;
+}
+.child-ind2{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(102, 102, 4);
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.child-ind2 img{
+    /* padding: 20px; */
+    padding: 25px;
+}
+.child-ind2{
+    font-size: 25px;
+    justify-content:center;
+    gap: 50px;
+    padding: 40px;
+}
